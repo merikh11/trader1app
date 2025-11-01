@@ -1,0 +1,18 @@
+{
+  "short_name": "Trade Journal Pro",
+  "name": "Trade Journal Pro",
+  "description": "A stylish and intelligent daily trading journal for traders to log, analyze, and get AI-powered feedback on their trades.",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0D1117",
+  "background_color": "#0D1117"
+}

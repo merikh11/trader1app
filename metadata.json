@@ -1,0 +1,7 @@
+{
+  "name": "Trade Journal Pro",
+  "description": "A stylish and intelligent daily trading journal for traders to log, analyze, and get AI-powered feedback on their trades.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

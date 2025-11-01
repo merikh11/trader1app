@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Journal Pro</title>
+    <link rel="stylesheet" href="/styles.css">
+    
+    <!-- PWA Manifest and Theme -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#0D1117">
+
+    <!-- iOS PWA Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Trade Journal Pro">
+    <link rel="apple-touch-icon" href="/icon.svg">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#0D1117',
+              'brand-secondary': '#161B22',
+              'brand-accent': '#58A6FF',
+              'brand-text': '#C9D1D9',
+              'brand-subtle': '#8B949E',
+              'brand-border': '#30363D',
+              'brand-success': '#238636',
+              'brand-danger': '#DA3633',
+              'brand-success-light': 'rgba(35, 134, 54, 0.1)',
+              'brand-danger-light': 'rgba(218, 54, 51, 0.1)',
+            },
+          }
+        }
+      }
+    </script>
+<script type="importmap">
+{
+  "imports": {
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.28.0"
+  }
+}
+</script>
+</head>
+<body class="bg-brand-primary text-brand-text">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
